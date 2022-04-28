@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "903538528436",
+    "project_id": "pracheta-987c3",
+    "storage_bucket": "pracheta-987c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:903538528436:android:757129c6cec701e2fbc7e1",
+        "android_client_info": {
+          "package_name": "com.axolotls.pracheta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "903538528436-gavnf1m5ndba21p0iaka75otd03jlsld.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbA8K6-fnfRSuOu5KkJdl12M5INS1RPq8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "903538528436-gavnf1m5ndba21p0iaka75otd03jlsld.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

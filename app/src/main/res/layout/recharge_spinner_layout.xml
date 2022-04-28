@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:weightSum="2">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        app:cardCornerRadius="5dp">
+
+    <ImageView
+        android:id="@+id/spinnerImages"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:contentDescription="Icon"
+        android:scaleType="fitXY"
+        android:src="@drawable/logo" />
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/spinnerTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Example application"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+
+</LinearLayout>
